@@ -1,0 +1,10 @@
+Per poder fer el programa el que fare sera que llegegi aquesta llista dins del txt amb open()
+Despres de obrirla ens preguntara que ficher volem configurar El del dia a dia o el de las tasques que ens queden per fer.
+
+Despres preguntara: Que vols fer?
+					[V]eure tascas pendents (pot ser automatic)
+					[M]arcar tasca
+					[R]Modificar tasca
+					[A]feixir tasca
+					[]
+
