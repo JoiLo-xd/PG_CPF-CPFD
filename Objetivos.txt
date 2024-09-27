@@ -1,9 +1,9 @@
 Objectius programa de organitzacio de JL:
 	Poder modificar un TXT amb un prgrama, aquest programa a de ser facil d'actualitzar per a que pugui ser llegible.
 	La comprobacio de aquests 2 fichers sera la seguents:
-	[· ·] Tasca a fer {asignatura de la tasca} (data de publicacio de la tasca) !data de maxima!
-	[·X·] tasca entregada {asignatura de la tasca} (data de publicacio de la tasca) ¡data de la finalitzacio¡
-	[·-·] Tasca pasada de la data de entrega ¡data pasada¡
+	[ï¿½ ï¿½] Tasca a fer {asignatura de la tasca} (data de publicacio de la tasca) !data maxima!
+	[ï¿½Xï¿½] tasca entregada {asignatura de la tasca} (data de publicacio de la tasca) ï¿½data de la finalitzacioï¿½
+	[ï¿½-ï¿½] Tasca pasada de la data de entrega ï¿½data pasadaï¿½
 	
 	Afeixir:
 	Automatitzacio de posar l'hora entragant tasques i enviantles 
