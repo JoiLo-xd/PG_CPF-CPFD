@@ -47,9 +47,10 @@ def ldcpf():
             input()
             return
     else:
-        file_txt = open(archiu, "r")
-        text_llistat = cont_tr_lines(file_txt)
-        text_lit = cont_tr_lit(file_txt)
+        file_txt = open(archiu, "r") #No se puede hacer read 2 veces porque se vacia el Buffer
+        text_llistat, text_lit = cont_tr(file_txt)
+        print(text_llistat)
+        print(text_lit)
         file_txt.close()
     
     ldcpf_s(text_llistat, text_lit,archiu)
@@ -62,6 +63,13 @@ def ldcpf_s(list,text,file_):
     match F_LDC_input.lower():
         case "a":
             ldcpf_a(list, text,file_)
+        case "v":
+            ldcpf_v(list,text,file_)
+
+
+def ldcpf_v(list, text,file_):
+    print(f"Ara hi han un total de {len(list)} tasques.")
+    print(text)
 
                 
 def ldcpf_a(list,text,file_):
@@ -99,10 +107,10 @@ def ldcpf_a(list,text,file_):
         
 
         
-def cont_tr_lines(fil):
+def cont_tr(fil):
     content = fil.read()
     text_ = [list(lineas) for lineas in content.split("\n")]
-    return text_
+    return text_, content
 
 
 def cont_tr_lit(fil):
